@@ -1,0 +1,29 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+
+.container{
+    text-align: center;
+}
+
+
+.topNav{
+    text-align: center;
+    color:#eaeaee;
+    background-color:#24292E;
+    height: top;
+}
+
+.bottomFoot{
+    top: 0;
+    text-align: center;
+    color: #eaeaee;
+    background-color: #24292E;
+}

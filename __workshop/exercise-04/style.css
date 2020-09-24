@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 40vw;
+    padding-left: 30vw;
+}
+
+
+.promoPicture{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.limitedTime{
+    margin: 5px 5px 0px 5px;
+    margin-top: 20px;
+    line-height: 1px;
+    width: 180px;
+    text-align: center;
+    font-size: 24px;
+    color: #3a3633;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2px;
+    text-shadow: 1px 1px 1px #eaeaee;
+    align-self: center;
+}
+
+.zeroDown{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.tradeIn{
+    font-size: 24px;
+    font-weight: 560;
+}
+
+.findStoreLink{
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.findStoreLink:hover{
+    text-decoration: underline;
+}
+
+.findStoreLink::after{
+    content: '>';
+}
+
