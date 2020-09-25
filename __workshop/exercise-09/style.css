@@ -1,3 +1,52 @@
+
+
+.header{
+  text-align: center;
+}
+
+.facts{
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid darkgray;
+  border-radius: 2px;
+  padding: 5vh 2vh;
+}
+
+tr{
+  display:flex;
+  justify-content: space-between;
+  padding: 1vh;
+  
+}
+
+td{
+  padding-right: 30vh;
+}
+
+tr:nth-child(even){
+  background-color: lightgray;
+  
+}
+
+
 h3 {
   margin-bottom: 0;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+li{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 1% 8%;
+  background-color: dodgerblue;
+}
+
+a{
+  color: #eaeaee;
+  text-decoration: none;
 }

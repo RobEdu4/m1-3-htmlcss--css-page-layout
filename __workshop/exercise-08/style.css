@@ -4,14 +4,35 @@ body {
 }
 
 .header {
+  max-width: 100%;
+  background-color: dodgerblue;
+  text-align: center;
+  box-shadow: 5px 5px 5px darkgray;
+  color: #eaeaee;
 }
+
 
 .registration-form {
+  display: flex;
+  flex-direction: column;
+  
+  margin: 8vh 25vh 0 25vh;
+  border: 2px solid #eaeaee;
+  padding: 3vh;
+  border-radius: 1vh;
 }
+
+
 
 .text-field {
+  border: 1px solid darkcyan;
+  border-radius: 0.75vh;
+  width: 50vh;
+  margin: 1vh 0 1vh 0;
 }
 
+
+/*
 .radio-label,
 .checkbox-label {
 }
@@ -19,20 +40,40 @@ body {
 label {
 }
 
+*/
+
 .section {
+  border-top: 1px solid darkgray;
+  margin: 1vh 0 1vh 0;
 }
 
+
+/*
 .section > label {
 }
 
 select {
 }
+*/
 
 textarea {
+  width: 100%;
+  height: 10vh;
+  border: none;
+  background-color: #eaeaee;
+  margin: 1vh 0 2vh 0 ;
+  
 }
 
 .form-button {
+  background-color: white;
+  border: 1px solid dodgerblue;
+  width: 20vh;
+  height: 8vh;
 }
 
 .form-button:hover {
+  border: none;
+  color: #eaeaee;
+  background-color: dodgerblue;
 }

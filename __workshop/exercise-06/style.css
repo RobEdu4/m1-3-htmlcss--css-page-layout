@@ -6,8 +6,75 @@ body {
   background-color: #383737;
 }
 
+.nav-items{
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.dropdown-label{
+  color: #fff;
+  padding: 16px;
+  font-size: 16px;
+  background-color: #383737;
+  border: none;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: darkturquoise;
+  min-width: 160px;
+  padding: 0;
+  z-index: 1;
+  margin: 0 0 0 15px;
+  font-size: 16px;
+}
+
+.dropdown-content--item{
+  padding: 12px 6px 12px 20px;
+}
+
+.dropdown-content--item:hover{
+  background-color: darkcyan;
+}
+
+
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
   display: inline-block;
 }
+
+li{
+  list-style-type:none;
+  color: #fff;
+}
+
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.linkTab{
+  margin: 0 0 0 30px;
+}
+
+
+
+/*
+position
+top
+left
+display
+margin
+list-style-type
+padding
+background-color
+:hover
+*/

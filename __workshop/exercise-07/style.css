@@ -2,6 +2,41 @@ body {
   margin: 0;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vh 10vh;
+}
+
+.desktop-nav{
+  display: none;
+}
+
 .mobile-nav-button img {
   width: 18px;
+}
+
+li{
+  margin-left: 5vw;
+}
+
+@media only screen and (min-width: 800px){
+  .mobile-nav{
+    display: none;
+  }
+
+  .desktop-nav{
+    display: inline-block;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+li:last-of-type{
+  margin-right: 0;
 }
