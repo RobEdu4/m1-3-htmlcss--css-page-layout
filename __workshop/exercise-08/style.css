@@ -5,7 +5,7 @@ body {
 
 .header {
   max-width: 100%;
-  background-color: dodgerblue;
+  background-color: dodgerblue; 
   text-align: center;
   box-shadow: 5px 5px 5px darkgray;
   color: #eaeaee;
@@ -15,8 +15,8 @@ body {
 .registration-form {
   display: flex;
   flex-direction: column;
-  
-  margin: 8vh 25vh 0 25vh;
+
+  margin: 8vh 25vh 3vh 25vh;
   border: 2px solid #eaeaee;
   padding: 3vh;
   border-radius: 1vh;
@@ -26,13 +26,24 @@ body {
 
 .text-field {
   border: 1px solid darkcyan;
-  border-radius: 0.75vh;
+  border-radius: 3px;
   width: 50vh;
-  margin: 1vh 0 1vh 0;
+  margin: 10px auto;
+  box-sizing: border-box;
+  max-width: 80%;
+  padding: .5rem .25rem;
 }
 
+label{
+  text-align: center;
+}
 
-/*
+.registration-form > div:first-of-type{
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
 .radio-label,
 .checkbox-label {
 }
@@ -48,13 +59,15 @@ label {
 }
 
 
-/*
+
 .section > label {
+  text-align: center;
 }
 
 select {
+  margin: .5rem 0 0 .5rem;
 }
-*/
+
 
 textarea {
   width: 100%;
@@ -70,10 +83,18 @@ textarea {
   border: 1px solid dodgerblue;
   width: 20vh;
   height: 8vh;
+  margin: 0 auto;
 }
 
 .form-button:hover {
   border: none;
   color: #eaeaee;
   background-color: dodgerblue;
+  cursor: pointer;
+}
+
+
+
+.registration-form > div:last-of-type{
+  text-align: center;
 }

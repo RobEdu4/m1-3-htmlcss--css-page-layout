@@ -13,16 +13,17 @@ body {
 
 
 .fast {
-  animation-duration: 4s;
-  transition-timing-function: ease-in-out;
-  animation: zoom 2s;
+  animation: EnterHelloo 1s ease-in-out;
 }
 
-@keyframes zoom{
- 0%  {transform: translate(0,0);}
- 25% {transform: translate(100,100);}
- 50% {transform: translate(200,200);}
- 100% {transform: translate(0.0)}
+@keyframes EnterHelloo{
+  from{
+    transform: translateX(200%);
+    opacity: 0;
+  } to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 
@@ -38,22 +39,22 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   font-size: 15px;
-  animation-name: coolPop;
-  animation-duration: 2.5s;
   transition-timing-function: ease-in-out;
 }
 
-@keyframes coolPop{
-  0% {transform: scale(1)};
-  25% {transform: scale(1.15)};
-  50% {transform: scale(1.25)};
-  75% {transform: scale(0.8)};
-  100% {transform: scale(1)};
+.cool:hover{
+  animation: Pop 2s ease-in-out;
 }
 
-.cool:hover{
-  transform: scale(1.2);
+
+@keyframes Pop{
+  from {transform: scale(1)}
+  80% {transform: scale(1.5)}
+  90% {transform: scale(0.9)} 
+  to {transform: scale(1)}  
 }
+
+
 
 /*
 

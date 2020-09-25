@@ -1,26 +1,26 @@
+body{
 
+  max-width: 100%;
+}
 
 .header{
   text-align: center;
 }
 
 .facts{
-  display: flex;
-  justify-content: flex-start;
   border: 1px solid darkgray;
   border-radius: 2px;
-  padding: 5vh 2vh;
+  border-spacing: 0;
+  width: 100%;
+  padding: .5rem;
 }
 
-tr{
-  display:flex;
-  justify-content: space-between;
-  padding: 1vh;
-  
+th{
+  text-align: left;
 }
 
-td{
-  padding-right: 30vh;
+th, td {
+  padding: 10px;
 }
 
 tr:nth-child(even){
@@ -35,18 +35,41 @@ h3 {
 
 .links{
   display: flex;
-  justify-content: space-between;
   
+  justify-content: space-between;
+  padding: 0;
+ 
 }
+
+
+
 
 li{
   list-style-type: none;
   text-decoration: none;
   padding: 1% 8%;
   background-color: dodgerblue;
+  display: flex;
+  justify-content: space-between;
+
 }
+
+
+
+li:last-of-type{
+  margin-right: 0;
+}
+
+li:first-of-type{
+  margin-left: 0;
+}
+
+
 
 a{
   color: #eaeaee;
   text-decoration: none;
+  width: 100%;
+ 
 }
+
